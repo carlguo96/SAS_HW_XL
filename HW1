@@ -1,4 +1,4 @@
-### 1. Importing and cleaning data sets from Excel, Access and text files. 
+# 1. Importing and cleaning data sets from Excel, Access and text files. 
 a.	Create a libref that points to a permanent SAS library on your computer. Call the libref “CARS515”. Store all the data sets that you create and all your code in this library. 
 b.	Import the data set Cars from the comma delimited text file “cars.csv”, using PROC IMPORT (not the import wizard!). Make sure that you give SAS enough information for it to figure out the data types of the data columns – i.e. help SAS guess. Name the SAS data set the same name as the import file and store the data set in the CARS515 library that you created from above.  
 c.	Import a second data set of car data from Excel: Use PROC IMPORT to import the Excel data from the Excel workbook called “new_cars.xls”. Please make sure that you are importing the “CARS” worksheet and that you import the column names as provided in the worksheet. Call the imported dataset by the same name as the Excel workbook and store it in the CARS515 library. 
@@ -7,8 +7,22 @@ d.	Import the Access table, called "Cars_det" from the database “Car_Det.mdb�
 ```SAS
 
 ```
-### 2. Show who won the 1962 prize for Literature.
- ```SAS
- SELECT winner FROM nobel
-  WHERE yr = 1962 AND subject = 'Literature'
- ```
+
+##b
+```SAS
+
+```
+
+##c
+```SAS
+
+```
+
+##d
+```SAS
+
+```
+# 2. Show who won the 1962 prize for Literature.
+```SAS
+
+```
